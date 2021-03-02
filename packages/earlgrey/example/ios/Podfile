@@ -1,0 +1,7 @@
+target 'Runner' do
+  pod 'EarlGreyFlutterApp', :path => '../../ios/EarlGreyFlutterApp.podspec'
+end
+
+target 'RunnerUITests' do
+  pod 'EarlGreyFlutterTest', :path => '../../ios/EarlGreyFlutterTest.podspec'
+end
